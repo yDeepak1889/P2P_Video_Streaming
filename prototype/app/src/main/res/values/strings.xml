@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">P-2-P Multimedia Streaming</string>
+    <string name="subscribe">JOIN IN</string>
+    <string name="request">REQUEST VIDEO</string>
+    <string name="yourIpAddress">Your IP Address</string>
+    <string name="memoryLeft">RAM Unused</string>
+    <string name="battery">Battery Left</string>
+    <string name="headIP">Smart Head IP</string>
+    <string name="headBattery">Smart Head Battery Left</string>
+    <string name="todo">TODO</string>
+</resources>

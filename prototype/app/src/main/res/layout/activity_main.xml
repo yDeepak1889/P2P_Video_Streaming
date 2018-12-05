@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="160dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/yourIP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yourIpAddress"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/memLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memoryLeft"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/batteryLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery"
+                android:layout_marginBottom="20dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/subscribe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="40sp"
+            android:textColor="@color/subscribeColor"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/colorAccent"
+            android:text="@string/subscribe"
+            android:onClick="joinNetwork"/>
+
+    <Button
+        android:id="@+id/request"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="40sp"
+        android:textColor="@color/subscribeColor"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/colorAccent"
+        android:text="@string/request"
+        android:onClick="requestFile"/>
+
+</android.support.constraint.ConstraintLayout>
